@@ -1,0 +1,34 @@
+<html>
+<head>
+	<style>
+		.table{
+			border: 0px dotted #000fff;
+		}
+		td, th{	
+			border-top:1px dotted;
+			border-right:1px dotted;
+		}
+	</style>
+</head>
+<body>
+
+<p>Caro <strong>{RESP} | empresa: {CLIENTE}</strong></p>
+
+<!--
+<p>Acesse o documento <a href="http://www.trianguloconabil.com.br/sistema/view/vis_docsenviados.php?id={LINK}&via=E-mail">clicando aqui</a></p>
+-->
+<p>Documento(s) publicado(s) no portal:</p>
+		<table class="table">
+			<tr>
+				<th width=40%>Imposto / Tributo</th>
+				<th>Arquivo</th>
+				<th>Visualizar</th>
+			</tr>
+			{IMPOSTO}
+	</table>
+</p>
+<p>Atenciosamente,</p>
+
+<p><img src="{SIGN}"/></p>
+</body>
+</html>

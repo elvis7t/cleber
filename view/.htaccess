@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+
+	RewriteEngine On
+	
+	RewriteRule ^index/([a-z0-9-]+)$ /index.php?token=$1 [NC, L]
+
+</IfModule>
