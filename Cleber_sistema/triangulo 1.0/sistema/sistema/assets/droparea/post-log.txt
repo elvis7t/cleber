@@ -1,0 +1,33 @@
+=== 2015-09-18 21:31:18 ===============================
+FILES:Array
+(
+)
+
+POST:Array
+(
+    [title] => Imagem
+    [description] => Assinatura do Paulinho..
+)
+
+=== 2015-09-18 21:31:58 ===============================
+FILES:Array
+(
+)
+
+POST:Array
+(
+    [title] => sample title ..
+    [description] => sample description ..
+)
+
+=== 2015-09-18 21:31:58 ===============================
+FILES:Array
+(
+)
+
+POST:Array
+(
+    [title] => sample title ..
+    [description] => sample description ..
+)
+
